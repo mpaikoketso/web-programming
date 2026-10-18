@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #f6f7fb;
+    color: #222;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #ffb700, #ff5e62, #ffb700);
+    color: #fff;
+    padding-bottom: 0.5em;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background: rgba(0,0,0,0.2);
+  }
+  
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+  
+  nav ul li a:hover {
+    color: #222;
+  }
+  
+  .socials img {
+    width: 24px;
+    margin-left: 1em;
+    filter: invert(1);
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 3em 1em 1em 1em;
+  }
+  
+  .banner h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    letter-spacing: 2px;
+  }
+  
+  .banner p {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+  }
+  
+  .cta-btn {
+    background: #222;
+    color: #ffb700;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .cta-btn:hover {
+    background: #ff5e62;
+    color: #fff;
+  }
+  
+  .countdown {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em 0;
+    color: #222;
+    background: #fff3cd;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 0.5em 1em;
+  }
+  
+  main {
+    max-width: 1100px;
+    margin: 2em auto;
+    padding: 0 1em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+    background: #fff;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  
+  .highlights {
+    display: flex;
+    gap: 2em;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1em;
+  }
+  
+  .highlights li {
+    background: #ffb70022;
+    border-radius: 8px;
+    padding: 1em;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .participants-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  
+  .participant-card {
+    flex: 1 1 200px;
+    background: #ffb70011;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .participant-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1em;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin-bottom: 1em;
+  }
+  
+  .registration-form input, .registration-form select {
+    padding: 0.7em;
+    border: 1px solid #ffb700;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .registration-form button {
+    background: #ff5e62;
+    color: #fff;
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .registration-form button:hover {
+    background: #ffb700;
+    color: #222;
+  }
+  
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1cm;
+    bottom: 100%;
+    margin-top: 2em;
+    
+  }
+  
+  .footer-socials a {
+    color: #ffb700;
+    margin: 0 0.5em;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 800px) {
+    .participants-grid {
+      flex-direction: column;
+      gap: 1em;
+    }
+    nav ul {
+      gap: 1em;
+    }
+    .highlights {
+      flex-direction: column;
+      gap: 1em;
+    }
+  }
+  .socials-button:hover{
+    background-color: #c82e4d;
+    
+  }
+  .piano{
+    width: 20%;
+    height: 10%;
+    padding: 30px;
+
+  }
+  legend{
+    font-weight: bolder;
+  }
+  
